@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+    <div id="header-box"></div>
+    <div id="main">
+        <div class="content">
+            <p class="top-p">美食杰注册</p>
+            <div class="Bgimg">
+                <i></i>
+                <i></i>
+                <i></i>
+                <p>更多第三方登录方式</p>
+            </div>
+            <span>
+                <a href="#form-content">手机注册</a>
+                <a href="#form-two">账号注册</a>
+            </span><br/>
+            <!-- 手机注册 -->
+            <form action="#" id="form-content" class="form-show">
+                <div class="input1">
+					<!-- <!-- 注册用户名 -->
+                     <input type="text" name="login-uname" placeholder="请输入手机号"/><br/><br/>
+					 <p class="Finput">
+                         <input type="text" placeholder="请输入验证码" name="code"/>
+                         <a  id="yzm" onclick="settime(this)">免费获取验证码</a><br/>
+                     </p>
+						<!-- 注册密码 -->
+                     <input type="text" name="login-upwd" placeholder="请输入密码"/><br/>
+                   <label >
+                         <input id="ucheckbox" type="checkbox" checked/>我已阅读并同意 <a href="#"> 《美食杰用户协议》</a>
+                    </label><br/>
+                    <input id="btn1" type="button" value="注册"><br/>
+                    <span><a href="" id="btn">已有账号？马上登录</a></span>
+                 </div>
+            </form>
+				<!-- 账号注册 -->
+            <form class="input2" id="form-two">
+                <label >用户名:
+                    <input type="text" name="uname" id="u" placeholder="请用输入账号"/>
+                </label><br/>
+                <label>密&nbsp;&nbsp;码:
+                    <input type="password" name="upwd" id="p" placeholder="请输入密码"/>
+                </label><br/>
+                <input  id="btn2" value="注册" type="button">
+            </form>
+        </div>
+    </div>
+    <div id="footer-box"></div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/header.js"></script>
+<script src="js/MSJ.js"></script>
+<script src="js/register.js"></script>
+<script>
+    $(function(){
+       main();
+   });
+</script>
+</body>
+</html>

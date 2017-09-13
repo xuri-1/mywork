@@ -1,0 +1,153 @@
+
+#main{
+    width:800px;
+    height:800px;
+    background: #fff;
+    margin:50px auto;
+}
+#main div.content{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    text-align: center;
+    padding-top:30px;
+}
+#main div.content p.top-p{
+    font-size:22px;
+    color:#000;
+}
+#main div.Bgimg{
+    margin:20px 0 50px;
+}
+#main div.Bgimg i:first-child{
+    display: inline-block;
+    width:96px;
+    height:96px;
+    background:url(../img/BgImage/sbt.png) no-repeat 0 0;
+}
+#main div.Bgimg i:nth-child(2){
+    display: inline-block;
+    width:96px;
+    height:96px;
+    background:url(../img/BgImage/sbt.png) no-repeat -142px 0;
+    margin:0 20px;
+}
+#main div.Bgimg i:nth-child(3){
+    display: inline-block;
+    width:96px;
+    height:96px;
+    background:url(../img/BgImage/sbt.png) no-repeat -284px 0;
+}
+#main div.Bgimg p{
+    margin-top:90px;
+    font-size: 14px;
+    color:#000;
+}
+#form-content span{
+    font-size: 20px;
+    display: inline-block;
+    margin:80px 10px 30px 0;
+}
+#form-content .color-bold{
+    color:#000;
+    font-weight: bold;
+}
+#form-content input{
+    font-size: 18px;
+    padding:10px 0;
+    width:400px;
+}
+#form-content p.Finput{
+    margin-bottom:20px;
+}
+#main div.content>span a{
+    font-size: 20px;
+    padding:10px 10px;
+    color:#000;
+}
+#form-content p.Finput input{
+    width:245px;
+}
+#form-content p.Finput a{
+   font-size: 18px;
+    border:1px solid #ddd;
+    display: inline-block;
+    width:130px;
+    height:45px;
+    background: #666666;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    margin-left:16px;
+    color:#ddd;
+    cursor: pointer;
+}
+#form-content label input{
+    width:14px;
+}
+#form-content label{
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+}
+#form-content label a{
+    color:#C90000;
+    font-size: 16px;
+}
+#form-content input:last-child{
+    width:120px;
+    height:40px;
+    border-radius: 5px;
+    background:#DB432E;
+    font-size: 21px;
+    color:#fff;
+    border:none;
+}
+#form-content span:last-child{
+    font-size: 16px;
+    margin-top:40px;
+}
+div.content form {
+    display:none;
+    margin-top:50px;
+}
+#main div.content .form-show{
+    display:block;
+}
+form.input2{
+    width:500px;
+    height:330px;
+}
+form.input2 button{
+    margin-top:20px;
+    background: #4CB540;
+}
+form.input2 input{
+    font-size: 18px;
+    padding:10px 0;
+    width:300px;
+    margin:10px auto;
+}
+form.input2 label{
+    font-size: 18px;
+}
+#btn2,#btn1{
+    background: #C90000;
+    margin-left: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+#btn1{
+    margin-left:0;
+}
+#form-content input.disabled{background: #cccccc;}
+.input1 input:last-child{
+    background: #C90000;
+}
+.input2 p{
+    font-size:16px;
+    color:#000;
+}

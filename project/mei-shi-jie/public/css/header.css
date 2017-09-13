@@ -1,0 +1,315 @@
+.container{
+    width:990px;
+    margin:0 auto;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#666;
+    margin:0;
+    padding:0;
+    background:#FAE8C8;
+}
+*{
+    box-sizing:border-box;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+#header{
+    width:100%;
+    height:129px;
+    background:#C90000;
+}
+#header a>img{
+    margin:12px 0 0 -20px;
+}
+#header div.select{
+    width:400px;
+    height:129px;
+    padding-top:40px;
+}
+#header div.select>div.select-content{
+    width:400px;
+    height:40px;
+    border:2px solid #fff;
+    border-radius:5px;
+    background:#C90000;
+}
+#header div.select>div.select-content>input{
+    width:312px;
+    height:37px;
+    border:1px solid transparent;
+    font-size:16px;
+    box-sizing:border-box;
+    outline: none;
+}
+#header div.select>div.select-content>button{
+    width:80px;
+    height:36px;
+    font-size:16px;
+    background:#C90000;
+    border:none;
+    border-radius:5px;
+    box-sizing:border-box;
+    font-weight:bold;
+    color:#fff;
+    outline: none;
+}
+#header div.QQ span{
+    display:inline-block;
+    margin:47px 0 0 27px;
+}
+#header div.QQ span.denglu{margin-left: 60px;}
+#header div.QQ span a{
+    font-size:16px;
+    color:#fff;
+    font-weight:bold;
+}
+#header div.QQ span{
+    position: relative;
+}
+#header div.QQ span i{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/BgImage/topdsflogin_icon.gif) no-repeat -4px -4px;
+    position:absolute;
+    top:0px;
+    left:-24px;
+}
+#header div.QQ span b{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../img/BgImage/topdsflogin_icon.gif) no-repeat -4px -32px;
+    position:absolute;
+    top:0px;
+    left:-24px;
+}
+#header div.modal-show{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:rgba(0,0,0,.7);
+    z-index:999;
+    display:block;
+}
+/*登录*/
+#close{margin-left: 235px;cursor:pointer;}
+.modal{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background:rgba(0,0,0,.7);
+    z-index:999;
+    display:none;
+}
+
+.modal-content {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px;
+}
+.modal-dialog{
+    width:370px;
+    margin:200px auto;
+}
+.modal-content .alert {
+    margin: 15px 0;
+    border: 1px solid #e4393c;
+    background: #fee;
+    color: #e4393c;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 2px;
+}
+.modal-content input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 6px 0;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 2px 6px;
+}
+/*��½�ɹ�����*/
+#header .vali_info{
+    display:none;
+}
+#header .txt_focus{/*���ı����ý���ʱ����*/
+    border-top:2px solid black;
+    border-left:2px solid black;
+}
+#header .vali_success,.vali_fail{
+    background-repeat:no-repeat;
+    background-position:left center;
+    display:block;
+}
+/* ��֤��Ϣ����֤ͨ��ʱ����ʽ */
+#header .vali_success{
+    background-image:url("../img/ok.png");
+    padding-left:20px;
+    width:0;height:20px;
+    overflow:hidden;
+}
+/* ��֤��Ϣ����֤ʧ��ʱ����ʽ */
+#header .vali_fail{
+    background-image:url("../img/err.png");
+    border:1px solid red;
+    background-color:#ddd;
+    color:Red;
+    padding-left:30px;
+}
+/*nav����*/
+#nav{
+    width:100%;
+    background:#fff;
+}
+#nav ul.nav{
+    height:76px;
+    position:relative;
+    z-index: 1000;
+    margin: 0 10px;
+}
+#nav ul.nav>li{
+    float:left;
+    margin:30px 64px 3px 0;
+    position: relative;
+}
+#nav ul.nav li:last-child{
+   margin-right: 0;
+}
+#nav ul.nav li.nav-li:hover div.dropdown1{
+    display: block;
+}
+#nav ul.nav li i{
+    display: inline-block;
+    width:24px;
+    height:23px;
+    position:absolute;
+    top:-16px;
+    left:58px;
+    background:url(../img/BgImage/20160909164810_443.png) no-repeat;
+}
+#nav ul.nav>li>a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#000;
+    position:relative;
+    height: 46px;
+    display: block;
+}
+#nav ul.nav>li>a:hover{color: #ff3232;}
+.current a{border-bottom: 4px solid #ff3232;}
+/*nav弹出框*/
+#nav div.dropdown1{
+    width:768px;
+    background:#fff;
+    position: absolute;
+    top:24px;
+    left:-26px;
+    z-index:1;
+    padding:25px 0 25px 25px;
+    display:none;
+}
+#nav div.dropdown1 dl{
+    display: inline-block;
+    margin-top: 15px;
+}
+#nav div.dropdown1 dl.clearfix-1{margin-right: 20px;}
+#nav div.dropdown1 dl.clearfix-2{margin-right: 140px;}
+#nav div.dropdown1 dl.clearfix-3{margin-right: 128px;}
+#nav div.dropdown1 dl a:hover{
+    color: #fff!important;
+    background-color: red;
+}
+#nav ul.nav div.dropdown1 dd{
+    display: inline-block;
+    line-height: 24px;
+    padding-right: 7px;
+}
+#nav ul.nav div.dropdown1 dt>a{
+    color:red;
+    padding: 2px 4px;
+    font-size: 15px;
+}
+#nav div.dropdown1 dd a{
+    color: #999;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+
+
+#foot{
+    background: #3E3A32;
+    padding-bottom: 30px;
+    color: #ddd;
+}
+#foot a{color: #ddd;}
+#foot div.top{
+    height:250px;
+    border-bottom: 5px;
+    border-bottom-color:#fff;
+}
+#foot div.top ul.img-bottom{
+    margin-left:50px;
+}
+#foot div.top ul.img-bottom li{
+    margin:10px 0;
+}
+#foot div.top ul.img-bottom li a{
+    font-size: 14px;
+    color:#fff;
+}
+#foot div.top ul.img-bottom li span{
+    margin-left:10px;
+    font-size: 14px;
+    color: #C90000;
+}
+#foot div.top span.f1{
+    font-size: 18px;
+    display:inline-block;
+    color:#fff;
+}
+#foot div.top ul.code{margin-right: 62px;}
+#foot div.top ul.code li{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+    margin:50px 10px 0;
+}
+
+/*#foot foot的字体修饰*/
+#foot div.foot ul{
+    padding-left:10px;
+    height: 30px;
+}
+#foot div.foot ul li{
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+}
+#foot div.foot ul li>a{padding: 5px;}
+#foot div.foot ul li:hover a{
+    background-color: red;
+    color: #fff;
+}
+.foot{
+    text-align: center;
+}

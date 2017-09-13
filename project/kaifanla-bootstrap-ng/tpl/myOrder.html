@@ -1,0 +1,31 @@
+<!--头部-->
+<div ng-include="'tpl/include/header.html'"></div>
+<!--主体-->
+<div id="myOrder" class="container">
+    <table class="table table-striped table-bordered">
+        <caption class="text-center">我的订单</caption>
+        <thead>
+            <tr>
+                <td>编号</td>
+                <td>菜品</td>
+                <td>下单时间</td>
+                <td>联系人</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="order in orderList">
+            <td>{{order.oid}}</td>
+            <td>
+                <a href="#/detail/{{order.did}}">
+                    <img ng-src="img/{{order.img_sm}}" class="img-responsive"
+                         alt=""/>
+                </a>
+            </td>
+            <td>{{order.order_time|date:'yy-MM-dd hh:mm'}}</td>
+            <td>{{order.user_name}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!--尾部-->
+<div ng-include="'tpl/include/footer.html'"></div>

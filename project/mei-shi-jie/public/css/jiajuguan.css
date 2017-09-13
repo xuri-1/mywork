@@ -1,0 +1,235 @@
+section{
+    margin: 0 auto;
+    width: 990px;
+}
+.menu_title{
+    height: 64px;
+    width: 100%;
+    background: #fdf4e4;
+}
+.menu_title li{
+    float: left;
+    height: 64px;
+    line-height: 64px;
+    width:100px ;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu_title a.red{color: #ff3232;}
+.menu_title a:hover{text-decoration: underline;}
+
+/*////////////////////////////////////*/
+/*section  part-one*/
+section>div{
+    margin: 40px 0;
+    width: 100%;
+}
+section>.list{
+    background-color: #fff;
+}
+section>div>h2{
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    font-weight: normal;
+}
+
+.part-one{height: 300px;}
+.part-one>ul>li{
+    width: 251px;
+    padding: 22px 0px 22px;
+    border-bottom: 1px solid #eee;
+    padding-left: 60px;
+    border-right: 1px solid #ddd;
+    background: url(../img3/bg.gif) no-repeat;
+    position: relative;
+}
+.part-one>ul>li:first-child{background-position: 0px -13px;}
+.part-one>ul>li:nth-child(2){background-position: 0px -613px;}
+.part-one>ul>li:nth-child(3){background-position: 0px -1213px;}
+.part-one>ul>li:last-child{background-position: 0px -2415px;}
+
+/*hover*/
+.part-one>ul>li:hover>a{color: #fff;}
+.part-one>ul>li:hover{ background-color: #ff3232;}
+.part-one>ul>li:first-child:hover{background-position: 0px -313px;}
+.part-one>ul>li:nth-child(2):hover{background-position: 0px -913px;}
+.part-one>ul>li:nth-child(3):hover{background-position: 0px -1513px;}
+.part-one>ul>li:last-child:hover{background-position: 0px -2716px;}
+
+.part-one>ul>li>a{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 18px;
+    font-family: Microsoft Yahei,黑体;
+    color: #333;
+    font-weight: bold;
+}
+.part-one>div{padding: 10px;}
+.part-one>div img{
+    width: 718px;
+}
+
+/*弹出框*/
+.part-one>ul>li:hover ul{display: block;}
+.part-one>ul ul{
+    z-index: 1;
+    position: absolute;
+    right: -311px;
+    top:0;
+    box-shadow: 2px 0px 2px rgba(0,0,0,0.1);
+    background: #f5f5f5;
+    width: 310px;
+    padding:10px 20px 20px;
+    display:none;
+}
+.part-one>ul ul>li>p>a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #ff3232;
+    font-family: Microsoft Yahei,黑体;
+    float: left;
+    width: 270px;
+    margin-top: 10px;
+}
+.part-one>ul ul>li>a{
+    display: inline-block;
+    width: 65px;
+    margin: 5px 0;
+}
+
+/*///////////////////////////////////////*/
+/*标题*/
+.jjg_titles{
+    font-size: 18px;
+    color: #000;
+    font-family: Microsoft Yahei,黑体;
+}
+
+/*///////////////////////////////////////////*/
+.part-two{
+    height: 272px;
+}
+.part-two>.part-1{
+    height: 272px;
+    width:495px;
+    padding: 20px 0 20px 20px;
+}
+.part-two>div:first-child{ border-right: 1px solid #ddd;}
+.part-1>a>img{
+    height: 232px;
+    width: 232px;
+    display: block;
+}
+.part-1>div{
+    width: 228px;
+    padding-left: 20px;
+    position: relative;
+    height: 232px;
+}
+.part-1>div>h4{
+    line-height: 28px;
+    font-size: 18px;
+    font-family: Microsoft Yahei,黑体;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.part-1>div>h4>a:hover{
+    color: #ff3232;
+    text-decoration: underline;
+}
+.part-1>div>p{margin-bottom: 10px;}
+.part-1>div>p>strong{color: #ff3232;}
+.part-1>div>.btn>a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: #ff3232;
+    color: #fff;
+    font-size: 16px;
+}
+.part-1>div>.btn>a:hover{background:#f00030;}
+
+/*//////////////////////////////////*/
+.part-three{
+    height: 396px;
+}
+.part-three>.part-2{
+    height: 396px;
+    width: 198px;
+    background: #fafafa;
+    position: relative;
+}
+.part-three>.part-2>h2{
+    height: 28px;
+    padding: 20px 24px 16px;
+    font-size: 24px;
+    color: #333;
+    line-height: 28px;
+    font-family: Microsoft Yahei,黑体;
+    box-sizing: content-box;
+}
+.part-three>.part-2>h2>span{
+    height: 24px;
+    width: 4px;
+    display: inline-block;
+    background: #999;
+    margin:3px 10px 0 0;
+}
+.part-three>.part-2>ul{
+    padding-left: 24px;
+}
+.part-three>.part-2>ul>li>a{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    text-indent: 14px;
+}
+.part-three>.part-2>ul>li>a.active{
+    background:#999;
+    color: #fff;
+}
+.part-2>div{
+    background: url(../img3/jjg_goodsbg_1.png) 0px 0px no-repeat;
+    height: 156px;
+    width: 233px;
+    bottom: -10px;
+    right: 0px;
+    position: absolute;
+}
+.part-3,.part-3>ul{
+    height: 396px;
+    width: 792px;
+}
+.part-3>ul>li{
+    float: left;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.part-3>ul>li.big,
+.part-3>ul>li.big>a>img{width: 395px;}
+.part-3>ul>li,
+.part-3>ul>li>a>img{
+    width:197px ;
+    height:197px ;
+    transition: all .5s linear;
+}
+.part-3>ul>li>a>img:hover{transform: scale(1.1);}
+
+.part-3>ul{
+    display: none;
+}
+ .part-3>ul.showl{
+    display: block;
+}

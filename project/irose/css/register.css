@@ -1,0 +1,71 @@
+.head>div:first-child{margin-top: 15px;}
+.head>div:nth-child(2){
+    width: 988px;
+    margin: 60px 0 0 34px;
+}
+section{
+    margin-top: 20px;
+    padding-top: 50px;
+    border-top: 2px solid #dddddd;
+}
+section>div{height: 460px;}
+section>div>div{
+    height: 460px;
+    margin-left:155px ;
+}
+section>div>div li{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+li.rg-group{
+    border: 1px solid #dddddd;
+    position: relative;
+}
+li.rg-group>i{
+    position: absolute;
+    right: 0px;
+    top:-20px;
+    color: #f00;
+    font-style: normal;
+    display: none;
+}
+li.rg-group>span{
+    float: left;
+    width: 74px;
+    text-align-last: justify;
+    margin-right: 20px;
+}
+li.rg-group>input{
+    border: none;
+    outline: none;
+    width: 287px;
+}
+section a,section a:hover{color: #3388ff;}
+[type='button']{
+    width: 400px;
+    text-align: center;
+    padding: 0;
+    background: #f61d4b;
+    border: 0;
+    color: #fff;
+    height: 44px;
+    outline: none;
+    cursor: pointer;
+}
+.disabled{ background: #ccc !important;}
+section>div>ul{
+    margin-right:263px;
+    border-left: 1px solid #eee;
+    padding-left: 85px;
+}
+section>div>ul b{
+    display: block;
+    width: 176px;
+    height: 160px;
+    background: url(../images/iconlist_1.png)-34px -118px;
+}
+section li>div{
+    margin: 4px 0;
+    line-height: 20px;
+    text-align: center;
+}

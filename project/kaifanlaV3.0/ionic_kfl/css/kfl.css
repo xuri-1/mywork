@@ -1,0 +1,23 @@
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.center{
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+/*¹ºÎï³µ*/
+div.text-right{margin-top: 10px;}
+div.text-right p{
+  display: inline-block;
+  vertical-align:middle;
+  color: red;
+  font-weight: bold;
+}
+/*ÏêÇéÒ³*/
+.card>div.item>p{margin: 10px 0;}

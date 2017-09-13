@@ -1,0 +1,134 @@
+section{
+    width: 100%;
+    padding-top: 20px;
+}
+.type_fl{
+    border: 1px solid #e3e3e3;
+    margin-top: 30px;
+}
+dl.clearfloat{
+    border-bottom: 1px solid #e3e3e3;
+    height: 50px;
+    line-height: 50px;
+}
+dl.clearfloat>dt{
+    width: 95px;
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+    background-color: #f3f3f3;
+    float: left;
+}
+dl.clearfloat>dd{float: left;}
+dd>div>a{
+    margin-left: 10px;
+    padding: 5px 6px;
+    margin-top: 11px;
+    color: #666;
+    font-size: 15px;
+}
+a.current{
+    background-color: #f61d4b;
+    color: #fff;
+    border-radius: 15px;
+}
+.type_num{
+    border: 1px solid #e3e3e3;
+    border-top: none;
+    padding-left: 25px;
+    height: 50px;
+    line-height: 50px;
+    color: #3c3c3c;
+    font-size: 14.21px;
+}
+.type_num span{
+    color: #f61d4b;
+    font-weight: bold;
+}
+.list{
+    margin-top: 10px;
+}
+.list ul li{
+    float:left;
+    width: 298px;
+    height: 390px;
+    transition: all .5s linear;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.list ul li:hover{
+    border: 1px solid #a0a0a0;
+    z-index: 99;
+}
+.list ul li a{
+    color: #303030;
+    font-size: 14.19px;
+}
+.list ul li a.item{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #e3e3e3;
+    margin: 10px 5px 0;
+    padding: 5px 0;
+}
+.list ul li a.item:hover{
+    background-color: #ff3232;
+    color: #fff;
+}
+.list ul li a dl dt img {
+    width: 242px;
+    height: 255px;
+}
+.list ul li a dl dd{
+    margin-top: 15px;
+}
+.list ul li a dl dd span{
+    color: #ff0000;
+    font-size: 14.19px;
+}
+.list ul li a dl dd b{
+    color: #ff0000;
+    font-size: 24.35px;
+}
+.list ul.row2 li,.list ul.row3 li,.list ul.row4 li,.list ul.row5 li{
+    border-top: none;
+
+}
+
+/*∑÷“≥µº∫Ω*/
+.pages {
+    text-align: center;
+    margin: 30px 0;
+}
+.pages a {
+    color:#999;
+    box-sizing: border-box;
+    height: 30px;
+    min-width: 30px;
+    font-size: 14px;
+    display: inline-block;
+    border:1px solid #ddd;
+    margin: 0 2px;
+    padding: 0 6px;
+    line-height: 30px;
+}
+.pages a:hover {
+    border-color:#f30;
+}
+.pages a.cur {
+    border-color:#f30;
+    background: #f30;
+    color: #fff;
+}
+.pages a.disabled {
+    border-color: #ddd;
+    color:#ddd;
+    cursor: default;
+}

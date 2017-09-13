@@ -1,0 +1,40 @@
+<div ng-include="'tpl/include/header.html'"></div>
+<div id="detail">
+    <!--<h3>6、面包屑/路径导航</h3>-->
+    <ul class="breadcrumb">
+        <li>
+            <a href="#/start">首页</a>
+        </li>
+        <li>
+            <a href="#">详情</a>
+        </li>
+    </ul>
+    <div class="row">
+            <div class="col-xs-12">
+                <div class="thumbnail">
+                    <h1>{{dish.name}}</h1>
+                    <img ng-src="img/{{dish.img_lg}}">
+                    <div class="caption">
+                        <p><b>主要原料：</b>{{dish.material}}</p><br>
+                        <p>{{dish.detail}}</p><br>
+                         <span>￥{{dish.price}}</span>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="text-right">
+                            <button
+                                    class="btn btn-success"
+                                    ng-click="jump('/order/'+dish.did)">
+                                我要订餐
+                            </button>
+                            <button
+                                    class="btn btn-warning"
+                                    ng-click="jump('/main')">
+                                我再看看
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div ng-include="'tpl/include/footer.html'"></div>

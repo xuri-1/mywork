@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>鲜花网</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/xh_list.css"/>
+</head>
+<body>
+<!-- header-->
+<div class="header_box"></div>
+<!--内容部分 -->
+<section>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="#">首页</a>
+            <a href="#">鲜花</a>
+        </div>
+        <div class="type">
+            <div class="type_fl">
+                <dl class="clearfloat">
+                    <dt>按用途</dt>
+                    <dd>
+                        <div class="option_list clearfloat" id="purpose">
+                            <a href="#" class="current" data-purpose="0">全部</a>
+                            <!--<a href="#">生日鲜花</a>
+                            <a href="#">爱情鲜花</a>
+                            <a href="#">祝福鲜花</a>
+                            <a href="#">道歉鲜花</a>
+                            <a href="#">商业鲜花</a>-->
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="clearfloat">
+                    <dt>按对象</dt>
+                    <dd>
+                        <div class="option_list clearfloat" id="object">
+                            <a href="#" class="current" data-object="0">全部</a>
+                            <!--<a href="#">送女友</a>
+                            <a href="#">送男友</a>
+                            <a href="#">送朋友</a>
+                            <a href="#">送母亲</a>
+                            <a href="#">送父亲</a>
+                            <a href="#">送领导</a>
+                            <a href="#">送老师</a>
+                            <a href="#">送长辈</a>-->
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="clearfloat">
+                    <dt>按花材</dt>
+                    <dd>
+                        <div class="option_list clearfloat" id="fType">
+                            <a href="#" class="current" data-fType="0">全部</a>
+                            <!--<a href="#">玫瑰</a>
+                            <a href="#">百合</a>
+                            <a href="#">康乃馨</a>
+                            <a href="#">永生花</a>
+                            <a href="#">向日葵</a>
+                            <a href="#">满天星</a>
+                            <a href="#">勿忘我</a>
+                            <a href="#">扶郎</a>
+                            <a href="#">雏菊</a>
+                            <a href="#">红掌</a>
+                            <a href="#">郁金香</a>
+                            <a href="#">马蹄莲</a>-->
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="clearfloat">
+                    <dt>按颜色</dt>
+                    <dd>
+                        <div class="option_list clearfloat" id="colors">
+                            <a href="#" class="current" data-colors="0">全部</a>
+                            <!--<a href="#">红色</a>
+                            <a href="#">白色</a>
+                            <a href="#">粉色</a>
+                            <a href="#">蓝色</a>
+                            <a href="#">黄色</a>
+                            <a href="#">紫色</a>
+                            <a href="#">彩色</a>
+                            <a href="#">香槟色</a>-->
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="clearfloat">
+                    <dt>按价格</dt>
+                    <dd>
+                        <div class="option_list clearfloat" id="price">
+                            <a href="#" class="current" data-min="0" data-max="10000">全部</a>
+                            <a href="#" data-min="0" data-max="200">200元以内</a>
+                            <a href="#" data-min="200" data-max="300">200-300元</a>
+                            <a href="#" data-min="300" data-max="400">300-400元</a>
+                            <a href="#" data-min="400" data-max="600">400-600元</a>
+                            <a href="#" data-min="600" data-max="800">600-800元</a>
+                            <a href="#" data-min="800" data-max="1000">800-1000元</a>
+                            <a href="#" data-min="1000" data-max="10000">1000元以上</a>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="clearfloat">
+                    <dt>按数量</dt>
+                    <dd>
+                        <div class="option_list clearfloat" id="number">
+                            <a href="#" data-number="0" class="current">全部</a>
+                            <a href="#" data-number="9">9枝</a>
+                            <a href="#" data-number="11">11枝</a>
+                            <a href="#" data-number="12">12枝</a>
+                            <a href="#" data-number="18">18枝</a>
+                            <a href="#" data-number="19">19枝</a>
+                            <a href="#" data-number="21">21枝</a>
+                            <a href="#" data-number="24">24枝</a>
+                            <a href="#" data-number="29">29枝</a>
+                            <a href="#" data-number="33">33枝</a>
+                            <a href="#" data-number="50">50枝</a>
+                            <a href="#" data-number="66">66枝</a>
+                            <a href="#" data-number="99">99枝</a>
+                            <a href="#" data-number="101">101枝</a>
+                            <a href="#" data-number="108">108枝</a>
+                            <a href="#" data-number="365">365枝</a>
+                            <a href="#" data-number="999">999枝</a>
+                            <a href="#" data-number="00">其他枝数</a>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+            <div class="type_num">
+                共有商品<span>39</span>件,当前为:第<span>1</span>件到<span>39</span>件
+            </div>
+        </div>
+        <div class="list">
+            <ul class="clearfloat">
+                <!--<li>
+                    <a href="details.html" class="link">
+                        <dl>
+                            <dt><img src="images/product/product_01.jpg" alt=""/></dt>
+                            <dd>
+                                <p>情定今生 编号:099253</p>
+                                <span>99枝红玫瑰</span><br/>
+                                <b>￥758</b>
+                            </dd>
+                        </dl>
+                    </a>
+                </li>-->
+            </ul>
+        </div>
+        <!-- 分页导航-->
+        <div class="pages">
+            <!--<a href="" class="disabled">上一页</a>
+            <a href="" class="cur">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">下一页</a>-->
+        </div>
+    </div>
+</section>
+<!-- footer-->
+<div class="footer_box"></div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/main.js"></script>
+<script src="js/f_list.js"></script>
+
+</body>
+</html>

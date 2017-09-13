@@ -1,0 +1,127 @@
+
+#main{
+    width:1000px;
+    height:720px;
+    background: #fff;
+    margin:50px auto;
+}
+#main div.top{
+    width:1000px;
+    height:50px;
+    background:#51B7EC;
+}
+#main div.top a.style-a{
+    display: inline-block;
+    margin:18px 0 0 100px;
+}
+#main div.top{
+    position: relative;
+}
+#main div.top i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/BgImage/topdsflogin_icon.gif) no-repeat -4px -4px;
+    position: absolute;
+    top: 16px;
+    left: 70px;
+}
+#main div.top ul{margin-right: 10px;}
+#main div.top ul li{
+    float:right;
+    color:#fff;
+    line-height: 50px;
+}
+#main div.top ul li b{
+    border:1px solid #ddd;
+    border-right: 1px;
+    margin:0 10px;
+}
+#main div.top a{
+    color:#fff;
+}
+#main div.content{
+    width:700px;
+    height:700px;
+    text-align: center;
+    margin:30px auto 0;
+}
+#main div.content ul.Ur{
+    text-align:left;
+}
+#main div.content ul p{
+    font-size:20px;
+    color:#000;
+    margin-bottom:15px;
+}
+#main div.content ul li{
+    width:315px;
+    margin:10px 0;
+    font-size: 16px;
+}
+
+#main div.content ul li a{
+    font-size: 16px;
+    color:#51B7EC;
+}
+#main div.content ul li img.Img-2{
+    margin-top:50px;
+    position: absolute;
+    top:122px;
+    left:113px;
+}
+#main div.content ul li img.Img-1{
+    margin-top:50px;
+    position: absolute;
+    top:213px;
+    left:108px;
+}
+#main div.content ul li img.Img-2{
+    opacity: 0;
+}
+#main div.content ul li.li-b b{
+    border:1px solid #51B7EC;
+    border-right:1px;
+    margin:0 10px;
+}
+#main div.content ul li:hover img.Img-1{
+    left:0px;
+    transition: all 0.8s linear;
+}#main div.content ul li:hover img.Img-2{
+    opacity: 1;
+     transition: all 0.8s linear;
+ }
+#main div.content ul label{
+    font-size: 16px;
+}
+#main .Input{
+    font-size: 18px;
+    color:#000;
+    position:absolute;
+    bottom:85px;
+    left:230px;
+}
+#main div.content{
+    position: relative;
+}
+#main .Input input{
+    width:250px;
+    padding:10px 0;
+    margin:10px 0;
+}
+#btn-q{
+    border:none;
+    font-size: 18px;
+    color:#fff;
+    border-radius:5px;
+    background:#4dc71f;
+    float:right;
+}
+#main .Input p{
+    color:#C90000;
+    opacity: 0;
+}
+#main .Input p.show{
+    opacity: 1;
+}
+

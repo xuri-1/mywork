@@ -1,0 +1,225 @@
+section{
+    margin: 40px auto;
+    width: 990px;
+}
+.part-one{
+    height: 192px;
+    width: 990px;
+    background-color: #fff;
+}
+.part-one>div{
+    float: left;
+    margin:25px 0 25px 25px;
+    height: 142px;
+    box-sizing: border-box;
+}
+.part-one>.part-1{
+    width: 580px;
+    border-right: 1px solid #ddd;
+}
+.part-1>p{margin: 20px 0;}
+
+.part-2{
+    width: 360px;
+}
+.part-2>div:first-child{
+    height:70px;
+    margin-bottom: 24px;
+}
+.part-2>div:first-child>a{
+    display:block;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.part-2 a>img{
+    display:block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.part-2 .info p{margin: 5px 0 10px;}
+.part-2 .info p>a:first-child{color: #ff3232;}
+.part-2 .info p>a:last-child{
+    color: #fff;
+    padding: 5px 8px;
+    background: #ff3232;
+}
+.part-2>div:last-child>a{
+    padding:12px 43px;
+    background: #ff3232;
+    border: 1px solid #e90808;
+    color:#fff;
+    font-size: 15px;
+    margin-right: 10px;
+}
+/*<!--2、菜单-->*/
+.part-two>p{
+    margin: 40px 0;
+    font-size: 23px;
+    text-align: center;
+}
+.part-two>div>ul{
+    width: 756px;
+}
+.part-two>div>ul>li{
+    float: left;
+    background: #fff;
+    height: 332px;
+    width: 232px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.part-two>div>ul>li.lis{margin: 0 20px;}
+
+.part-two>div>ul>li>a,
+.part-two>div>ul>li>a>img,
+.part-two>div>ul>li>div.info2,
+a.info2_c{
+    display: block;
+    width: 232px;
+    height: 232px;
+    overflow: hidden;
+}
+.info2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+a.info2_c{
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    left: 232px;
+    top: 0px;
+    opacity: 0;
+    transition: all .5s linear;
+}
+
+a.info2_c>ul{
+    padding: 71px 20px 41px;
+    height: 120px;
+}
+a.info2_c>ul>li{
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 12px;
+    float: left;
+    width: 80px;
+}
+
+a.info2_c>div.gx2,
+.gx{
+    position: absolute;
+    right:0px;
+    top: 12px;
+    background: #60a531;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+/*hover*/
+.info2:hover .info2_c{
+    left: 0;
+    opacity: 1;
+}
+/*文本*/
+.part-two>div>ul>li>div.info3{
+   padding: 10px;
+}
+.part-two>div>ul>li>div.info3>h3>a{font-size: 16px;}
+.part-two>div>ul>li>div.info3>h3>a:hover{
+    color: #ff3232;
+    text-decoration: underline;
+}
+.part-two>div>ul>li .d1{margin: 10px 0;}
+.part-two>div>ul>li .d1 h3>a{font-size: 16px;}
+.part-two>div>ul>li .d1 h3>a:hover{color: #ff3232;}
+.part-two>div>ul>li .d1>span{margin-right: 10px;color: #bbb;}
+.part-two>div>ul>li>div>a{color: #ff3232;}
+
+/*右侧内容*/
+.part-two .contain{
+    background-color: #fff;
+    width: 232px;
+}
+.part-two .contain>p{
+    padding: 15px;
+    font-size: 15px;
+}
+.part-two .contain>div{
+    background-color: #fcfcfc;
+    height: 183px;
+    padding: 12px 14px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+textarea{
+    height: 115px;
+    width: 205px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 6px;
+    font-size: 14px;
+    resize: none;
+}
+.contain>div>input{
+    height: 32px;
+    width: 74px;
+    float: right;
+    border: none;
+    background: #ff3232;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.contain ul{padding: 10px 0;}
+.contain ul>li{
+   padding: 12px;
+    width: 232px;
+    height:61px ;
+    box-sizing: border-box;
+}
+.contain ul li>a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.contain ul li>div{
+    padding-left: 10px;
+    width: 165px;
+    float: left;
+}
+.contain ul li>div>a{color: #ff3232;}
+
+
+
+/*分页导航*/
+.pages{
+    margin: 40px auto;
+    height: 40px;
+    text-align: center;
+}
+.pages a,
+form.gopage>.submit{
+    display: inline-block;
+    padding:10px 15px;
+    text-align: center;
+    background: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+}
+.pages a.cur,
+.pages a:hover,
+form.gopage>.submit:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/*上一页*/
+.pages a.pre{margin-right: 20px;}
+/*下一页*/
+.pages a.next{margin:0 10px 0 20px;}

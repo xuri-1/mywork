@@ -1,0 +1,116 @@
+
+#main{
+    width:1000px;
+    background: #fff;
+    margin:50px auto;
+    padding:40px 0 60px;
+    box-shadow: 1px 1px 10px 1px;
+}
+#main div.login{
+    width:600px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+#main div.login span{
+    margin-left:290px;
+}
+#main div.login span a{
+    font-size:16px;
+    margin:0 20px;
+    color:mediumblue;
+}
+#main div.login span b{
+    border:1px solid #3E3A32;
+    border-right: 2px;
+}
+#main div.W-login{
+    border:1px solid #ddd;
+    width:600px;
+    height:330px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px 1px;
+}
+#main div.W-login p:first-child{
+    font-size: 18px;
+    margin:20px 0 20px 20px;
+    text-align: left;
+}
+#main div.W-login p:nth-child(2){
+    font-size: 16px;
+    border:1px solid #ddd;
+    background: #FAE8C8;
+    color:#C90000;
+    width:180px;
+    height:26px;
+    line-height: 26px;
+    border-radius: 5px;
+    margin:0 0 10px 227px;
+}
+#main div.W-login p:nth-child(2) span{
+    border:1px solid transparent;
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+    display: inline-block;
+    background:#FF7D23 ;
+}
+#main div.W-login p:nth-child(2) a{
+    color:#C90000;
+    padding-left:10px;
+}
+#main div.W-login p:nth-child(2){
+    position: relative;
+}
+#main div.W-login p:nth-child(2) i{
+    border:7px solid transparent;
+    border-top-color:#FFFCC6;
+    position: absolute;
+    top:26px;
+    left:20px;
+}
+#main div.W-login p.p-style{
+    font-size:16px;
+    width:180px;
+    padding: 10px 20px;
+    margin:-18px 0 20px 230px;
+    color:#C90000;
+    background:#FAE8C8 ;
+    border-radius: 5px;
+}
+#form-grop p{
+   opacity: 0;
+}
+#form-grop p.font{
+    /*opacity: 1;*/
+}
+#main div.W-login input{
+    font-size:18px;
+    padding:10px 0;
+    margin:0 0 20px 0 ;
+    width:250px;
+}
+#main div.W-login button{
+    width:100px;
+    height:40px;
+    font-size: 16px;
+    float:right;
+    margin:0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+#btn2{
+    background: #F63A49;
+    color:#fff;
+    border:none;
+}
+#btn1{
+    background: #ddd;
+    color:#000;
+    border:none;
+}
+#main p:last-child{
+    text-align: center;
+    font-size: 14px;
+    margin-top:20px;
+}
