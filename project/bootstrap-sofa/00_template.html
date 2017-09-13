@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+  <meta charset="UTF-8">
+  <!--2 viewport-->
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <!--3、x-ua-compatible-->
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <title></title>
+  <!--4、引入两个兼容文件-->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <!--6、引入 bootstrap.css-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/shafa.css"/>
+</head>
+<body>
+<!--------------------------------1.nav   和 轮播------------------------>
+<nav class="navbar navbar-default alike" id="top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">沙发网</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="请输入搜索沙发...">
+        </div>
+        <button type="submit" class="btn btn-default">搜索</button>
+         </form>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">菜单列表<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#top">主页</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#offer">我们的售后</a></li>
+            <li><a href="#service">我们的服务</a></li>
+            <li><a href="#third-floor1">产品展示</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <div id="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/slide-1.jpg" style="width:1920px;">
+        </div>
+        <div class="item">
+          <img src="img/slide-2.jpg"  style="width:1920px;">
+        </div>
+        <div class="item">
+          <img src="img/slide-3.jpg"  style="width:1920px;">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!------------------------------2.关于我们----------------------------------->
+<div id="first-floor" class="container alike">
+  <div class="row" id="about">
+    <div class="col-md-12">
+      <h1>关于我们</h1>
+    </div>
+  </div>
+  <div class="row first-floor">
+    <div class="col-md-6">
+      <h2>从这里开始</h2>
+      <h4>
+        每一个沙发，都经历每个工程师的精确的计算，和人体工程学的逻辑运算...
+      </h4>
+      <div style="margin-top:8%; text-indent: 2em">
+        每一个沙发，都出自工人之手，我们的工人都拥有多年的经验，他们对于制作都是一种兴趣，我们真心的希望能够真正的使用它们，它们都是独一无二的，拥有他们是一种享受，真正的舒适，我们向你们保证，也请你们相信我们的真心！支持我们的产品，我们将继续保持我们的工艺，为了沙发！
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="img/about.jpg" width="100%";>
+    </div>
+  </div>
+  <!------------------------------3我们的售后---------------------------------->
+  <div class="row alike" id="offer">
+      <h1 >我们售后</h1>
+    <div class="col-md-6">
+      <div style="transform: scale(3); margin-top:5%;" class="glyphicon glyphicon-cog col-md-1" aria-hidden="true" ></div>
+      <div class="col-md-11">
+        <h3>产品配置</h3>
+        <div style="line-height:33px; text-indent:2em;">
+          沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div style="transform: scale(3); margin-top:5%;" class="glyphicon glyphicon-globe col-md-1" aria-hidden="true" ></div>
+      <div class="col-md-11">
+        <h3>产品全球化</h3>
+        <div style="line-height:33px; text-indent:2em;">
+          沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="offer1">
+    <div class="col-md-6">
+      <div style="transform: scale(3); margin-top:5%;" class="glyphicon glyphicon-cog col-md-1" aria-hidden="true" ></div>
+      <div class="col-md-11">
+        <h3>产品配置</h3>
+        <div style="line-height:33px; text-indent:2em;">
+          沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div style="transform: scale(3); margin-top:5%;" class="glyphicon glyphicon-globe col-md-1" aria-hidden="true" ></div>
+      <div class="col-md-11">
+        <h3>产品全球化</h3>
+        <div style="line-height:33px; text-indent:2em;">
+          沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！沙发的填充物是经过精心的挑选，和原料的检查。保证填充物在生产中的可塑性，保证沙发的填充物的质量，这是我们必须做的！
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------4.我们的服务----------------------------------->
+  <div id="service">
+    <div class="row alike">
+      <h1>我们的服务</h1>
+      <div class="col-md-8  img-bg img-bg1" style="height:292.5px">
+        <p>
+          我们的服务包括沙发的见解和对整体家装布局中沙发的选择，真正的帮助大家选择适合自己的一款沙发，不管从舒适性，还是保养方面，还是他的可移动性，我们将完全替你们考虑！请认准我们的产品！
+        </p>
+      </div>
+      <div class="col-md-4 padd">
+        <img src="img/service-1b.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 padd">
+        <img src="img/service-2b.jpg" width="100%" height="292.5px">
+      </div>
+      <div class="col-md-8 img-bg img-bg2" style="height:292.5px">
+        <p>
+          我们的服务包括沙发的见解和对整体家装布局中沙发的选择，真正的帮助大家选择适合自己的一款沙发，不管从舒适性，还是保养方面，还是他的可移动性，我们将完全替你们考虑！请认准我们的产品！
+        </p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-8  img-bg img-bg1" style="height:292.5px">
+        <p>
+          我们的服务包括沙发的见解和对整体家装布局中沙发的选择，真正的帮助大家选择适合自己的一款沙发，不管从舒适性，还是保养方面，还是他的可移动性，我们将完全替你们考虑！请认准我们的产品！
+        </p>
+      </div>
+      <div class="col-md-4 padd">
+        <img src="img/service-1b.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 padd">
+        <img src="img/service-2b.jpg" width="100%" height="292.5px">
+      </div>
+      <div class="col-md-8 img-bg img-bg2" style="height:292.5px">
+        <p>
+          我们的服务包括沙发的见解和对整体家装布局中沙发的选择，真正的帮助大家选择适合自己的一款沙发，不管从舒适性，还是保养方面，还是他的可移动性，我们将完全替你们考虑！请认准我们的产品！
+        </p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-8  img-bg img-bg1" style="height:292.5px">
+        <p>
+          我们的服务包括沙发的见解和对整体家装布局中沙发的选择，真正的帮助大家选择适合自己的一款沙发，不管从舒适性，还是保养方面，还是他的可移动性，我们将完全替你们考虑！请认准我们的产品！
+        </p>
+      </div>
+      <div class="col-md-4 padd">
+        <img src="img/service-1b.jpg" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 padd">
+        <img src="img/service-2b.jpg" width="100%" height="292.5px">
+      </div>
+      <div class="col-md-8 img-bg img-bg2" style="height:292.5px">
+        <p>
+          我们的服务包括沙发的见解和对整体家装布局中沙发的选择，真正的帮助大家选择适合自己的一款沙发，不管从舒适性，还是保养方面，还是他的可移动性，我们将完全替你们考虑！请认准我们的产品！
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--3.大背景-->
+<div id="second-floor" class="unique">
+  <div class="container">
+    <h3>我们为您提供非常独特的收藏品的收藏和模型</h3>
+    <p>
+      关于沙发的设计和模型，我们有着多年的经验，我们的设计师也是在这些方面十分有经验，对于设计他们有着独到的看法和独特的见解，对于我们每一个的不同你每一个的满意使我们最大欣慰，我们坚信我们让你们满意，让你们感受到家的幸福——关于沙发。
+    </p>
+  </div>
+</div>
+<!------------------------------5.产品展示----------------------------------->
+<div id="third-floor1" class="container zhezhaoceng alike">
+  <h1>产品展示</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-1.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-2.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-3.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="third-floor2" class="container zhezhaoceng">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-4.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-5.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-6.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="third-floor3" class="container zhezhaoceng">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-7.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-8.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="zhezhaoceng1">
+        <img src="img/portfolio-9.jpg" alt=""/>
+        <div class="zhezhaoceng2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------------------------6.联系我们--------------------------->
+<div class="row bindwe" style="margin:0;">
+  <form class="container">
+    <h1>联系我们</h1>
+    <div class="col-md-4">
+      <input type="text" placeholder="请输入你的名字" required/> ><br>
+      <input type="email" placeholder="请输入你的邮箱"/>
+    </div>
+    <div class="col-md-4">
+      <input type="text" name="num"  pattern="1[35789]\d{9}"
+             placeholder= "请输入你的手机号码" required/><br>
+      <input type="text" placeholder="请输入你的位置"/>
+    </div>
+    <div class="col-md-4">
+      <textarea cols="50" rows="6"  placeholder="请输入你的邮件"></textarea>
+    </div>
+    <div class="col-md-offset-10 col-md-2">
+      <button class="btn btn-info btn-lg btn-block" type="submit" >发送</button>
+    </div>
+  </form>
+</div>
+<!----------------------7.页面底部------------------------------>
+<div id="footer">
+  <div class="container">
+    <div  class="col-md-8">
+        <ul>
+          <li><a href="#top">主页</a></li>
+          <li><a href="#about">关于我们</a></li>
+          <li><a href="#offer">我们的售后</a></li>
+          <li><a href="#service">我们的服务</a></li>
+          <li><a href="#third-floor1">产品展示</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+      <input type="email" placeholder="emali">
+      <button class="btn btn-default">发送</button>
+    </div>
+  </div>
+</div>
+<!--模态框-->
+<div id="motai">
+    <img src="img/portfolio-1.jpg">
+    <div class="close">X</div>
+</div>
+  <!--5、引入 jquery，bootstrap js-->
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootlint.js"></script>
+<script src="js/shafa.js"></script>
+</body>
+</html>

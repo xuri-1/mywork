@@ -1,0 +1,110 @@
+.rg_head{
+    border-bottom: 2px solid #dedede;
+}
+.rg_logo{
+    width: 179px;
+    height: 56px;
+    margin-top: 13px;
+}
+.rg_logo img{
+    width: 100%;
+    height: 100%;
+}
+.rg_login{
+    width: 1019px;
+}
+.rg_login>span{
+    margin:63px 0 19px 34px;
+}
+.rg_login>a{
+    margin-top:63px;
+}
+.rg_from{
+    width: 664px;
+    border-right:1px solid #dddddd;
+    height: 480px;
+    margin-top: 50px;
+}
+.rg_group{
+    position: relative;
+    margin-top:30px;
+}
+.rg_group>input{
+    width: 287px;
+    height: 44px;
+    outline: none;
+    margin-left:160px;
+    padding-left: 113px;
+border:1px solid #dddddd;
+}
+.rg_group img{
+    position: absolute;
+    left:500px;
+    top: 13px;
+}
+form div:first-child{
+    margin-top:0;
+}
+.rg_group .dx{
+    width: 112px;
+    height: 37px;
+    position: absolute;
+    border: 0;
+    background: #dddddd;
+    left:440px;
+    top: 6px;
+}
+.rg_group>i {
+    position: absolute;
+    right:102px;
+    top:-22px;
+    color: #f00;
+    display: none;
+}
+.rg_group>label{
+    position: absolute;
+    left: 176px;
+    width: 74px;
+    text-align:justify;
+    text-align-last:justify;
+    line-height: 47px;;
+    height:44px;
+}
+
+.rg_group>input[type='checkbox']{
+    width: 14px;
+    height: 14px;
+}
+.rg_group span a{
+    color: #3388ff;
+}
+.rg_group>input[type='button']{
+  width: 400px;
+    text-align: center;
+    padding: 0;
+    background: #f61d4b;
+    border: 0;
+    color: #fff;
+}
+.rg_group .disabled {
+    background: #ccc !important;
+}
+.rg_rwm{
+    margin-top: 50px;
+}
+.rg_rwm dl {
+    margin-bottom: 10px;
+}
+.rg_rwm dl>dt{
+    width: 176px;
+    height: 160px;
+    margin-right:260px;
+    margin-bottom: 10px;
+    background: url("../images/iconlist_1.png")-34px  -118px;
+
+}
+.rg_rwm dl>dd{
+    width: 176px;
+    text-align: center;
+    color: #000000;
+}

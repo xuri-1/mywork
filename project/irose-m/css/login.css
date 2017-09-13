@@ -1,0 +1,123 @@
+.lg_header{
+    margin-top: 15px;
+}
+.navbar_phone{
+    margin-top: -30px;
+}
+.login_box{
+    margin-top: 40px;
+    height: 475px;
+    background: url("../images/login_bg.jpg") no-repeat center;
+}
+.login_content{
+    background-color: #fff;
+    width: 503px;
+    height: 360px;
+    margin-top: 58px;
+
+}
+.login_content .lg_con_lf{
+    padding-top: 30px;
+    margin-left: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #eee;
+    padding-bottom: 19px;
+}
+.login_content .lg_con_lf div.lg_title span{
+    display:inline-block;
+    width: 140px;
+    height: 35px;
+    background-color: #eee;
+    line-height: 35px;
+    text-align: center;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.login_content .lg_con_lf div.lg_title span.current{
+    background-color: #f61d4b;
+    color: #fff;
+}
+.lg_user,.lg_pwd,.lg_yzm{
+    margin-top: 20px;
+}
+.lg_user .user_box,.lg_yzm .yzm_box,.lg_pwd .pwd_box{
+    border: 1px solid #ddd;
+    width: 280px;
+    height: 35px;
+}
+.lg_user .user_box .icon_bg,.lg_pwd .pwd_box .icon_bg,.lg_yzm .yzm_box .icon_bg{
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-color: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+}
+.lg_user .user_box em,.lg_pwd .pwd_box em,.lg_yzm .yzm_box em{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background:url("../images/iconlist_1.png") no-repeat -176px 0px;
+}
+.lg_user .user_box input,.lg_pwd .pwd_box input,.lg_yzm .yzm_box input{
+    border: none;
+    border-left: 1px solid #ddd;
+    height: 32px;
+    outline: 0;
+    margin-top: 2px;
+    padding-left: 5px;
+    width: 220px;
+}
+.lg_pwd .pwd_box em,.lg_yzm .yzm_box em
+{
+    background-position:-197px 0px;
+}
+.forget{
+    margin-top: 15px;
+    color: #666;
+    font-size: 11.6px;
+}
+.lg_tips {
+    color: #f00;
+    font-size: 14px;
+    font-style: normal;
+    display: none;
+}
+
+.lg_btn{
+    margin-top: 15px;
+}
+.lg_btn input{
+    width: 280px;
+    height: 40px;
+    background-color: #f61d4b;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    font-size: 15.58px;
+    cursor: pointer;
+}
+.free_rg{
+    margin-top: 15px;
+}
+.free_rg a{
+    font-size: 14.41px;
+    color: #666;
+}
+.free_rg a span{
+    color: #f61d4b;
+}
+.lg_con_rt{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.lg_con_rt div p{
+    margin-top: 4px;
+    line-height: 20px;
+    text-align: center;
+}
+.lg_con_rt div:last-child{
+    margin-top: 10px;
+}

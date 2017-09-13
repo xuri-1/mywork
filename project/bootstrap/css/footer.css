@@ -1,0 +1,16 @@
+/*************************6ҳβ************************/
+#menu-footer{width: 100%;text-align: center;}
+#menu-footer>li{
+    display: inline-block;
+    margin:2% 2%;
+}
+#menu-footer>li>a{
+    color:#878787 ;
+    font-size: 1.5rem;
+    transition: all .5s linear;
+    opacity:.7;
+}
+#menu-footer>li:hover a{opacity:1;}
+@media screen and (max-width: 768px){
+    #menu-footer>li{width:29%;}
+}

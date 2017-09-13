@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    background: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    color: #424242;
+}
+ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,button {
+    margin:0;
+    padding:0;
+}
+ul,ol {
+    list-style: none;
+}
+input,button {
+    font-family: "Microsoft YaHei";
+}
+a {
+    color:#424242;
+    text-decoration: none;
+}
+a:hover{
+    color: #f61d4b;
+}
+.clearfloat:after {
+    content: " ";
+    display: table;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.link{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+em{
+    font-style: normal;
+}
+i{
+    font-style: normal;
+}
+/*header部分*/
+.header{
+    height: 45px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.header .h_con ul li{
+    float: left;
+    height:45px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+.header .h_con ul li a{
+    color: #4c4c4c;
+}
+.header .h_con ul li a:hover{
+    color: #f61d4b;
+}
+.header .h_con ul li.zhanghu i{
+    width: 10px;
+    height: 8px;
+    margin-left: 5px;
+    display: inline-block;
+    background: url("../images/iconlist_1.png") no-repeat 0 -22px;
+}
+.header .h_user a,.header .h_user span{
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+}
+.header .h_user span{
+    margin: 0px 8px;
+}
+.header_love{
+    width: 100%;
+    height: 60px;
+    background: url("../images/header_love.jpg") no-repeat center;
+
+}
+.header_love span{
+    color:#f61d4b;
+    margin-right: 28px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.header_love span b{
+    font-size: 16px;
+    font-weight: normal;
+}
+.header_love a{
+    margin-right: 120px;
+    width: 122px;
+    height: 27px;
+    background-color: #f61d4b;
+    margin-top: 16px;
+    line-height: 27px;
+    border: 1px solid #f61d4b;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 14px;
+}
+.header_love a:hover{
+    color: #f61d4b;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.header_top{
+    height: 80px;
+    padding: 10px 0;
+}
+.header_top .h_logo{
+    width: 330px;
+    height: 60px;
+    background:url("../images/logo.png") no-repeat;
+}
+.header_top .h_search{
+    width: 540px;
+    padding: 20px 180px 0 0;
+}
+.header_top .h_search .search_box .search_text{
+    width:540px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 3px solid #f61d4b;
+    background-color: #f61d4b;
+}
+.search_box .search_text .keywords{
+    width: 460px;
+    line-height: 32px;
+    padding: 4px;
+    background-color: #fff;
+    border: none;
+    color: #666;
+    font-size: 13px;
+    outline: 0;
+}
+.search_box .search_text .s_btn{
+    width: 68px;
+    height: 30px;
+    border: none;
+    background: #f61d4b;
+    color: #fff;
+    font-size: 16px;
+}
+.hot_key li{
+    margin-right: 10px;
+    float: left;
+}
+.hot_key li a{
+    color: #424242;
+    font-size: 13px;
+}
+.hot_key li a.current{
+   color: #f61d4b;
+}
+.hot_key li a:hover{
+    text-decoration: underline;
+    color: #f61d4b;
+}
+.header_top .h_btn a{
+    display: inline-block;
+    height: 36px;
+    margin-top: 23px;
+    background: #fff;
+    padding: 0 6px 0 0px;
+    border: 1px solid #dedede;
+    color: #666;
+    line-height: 33px;
+}
+#shop_cart b{
+    width:20px;
+    height: 30px;
+    float: left;
+    background: url("../images/iconlist_1.png") no-repeat 0px 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+#shop_cart i{
+    width: 7px;
+    height: 25px;
+    float: right;
+    background: url("../images/iconlist_1.png") no-repeat 0 -29px;
+    margin-top: 3px;
+    margin-left: 23px;
+    margin-right: 11px;
+}
+.navbar{
+    margin-top: 30px;
+}
+.navbar .nav{
+    margin-left: 330px;
+
+}
+.navbar .nav ul li{
+    float: left;
+    margin-right: 30px;
+}
+.navbar .nav ul li a{
+    color: #4c4c4c;
+    font-size: 16px;
+}
+.navbar .nav ul li a.current,.navbar .nav ul li a:hover{
+    color: #f61d4b;
+}
+.navbar_phone{
+    color: #f61d4b;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -7px;
+}
+.navbar_phone i{
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../images/iconlist_1.png") no-repeat 0 -57px;
+    margin-right: 10px;
+}
+/*footer*/
+.footer_box{
+    margin: 30px 0;
+}
+.ft_service ul li{
+    float: left;
+    margin-left: 55px;
+    font-size: 16px;
+    color: #616161;
+}
+.ft_service ul li i{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url("../images/iconlist_1.png") no-repeat -36px 0px;
+    margin-right: 5px;
+}
+.ft_service ul li.fast i{
+    background-position: -64px 0px;
+}
+.ft_service ul li.fresh i{
+    background-position: -92px 0px;
+}
+.ft_service ul li.gx i{
+    background-position: -121px 0px;
+}
+.ft_service ul li.pay i{
+    background-position: -150px 0;
+}

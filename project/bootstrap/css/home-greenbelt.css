@@ -1,0 +1,243 @@
+
+/************************* 3 banner 轮播************************/
+#ccc img{width:100%;height:540px;}
+/*轮播文本*/
+#ccc div.carousel-caption{
+    position: absolute;
+    top:25%;
+    left: 3%;
+    margin: auto;
+    width: 100%;
+    text-shadow: rgba(0, 0, 0, 0.701961) 0px 0px 6px;
+}
+/*字体颜色*/
+#ccc h1,#ccc h3,#ccc h6{color: #fff;}
+#ccc h1{font-weight: 700;font-size:5em;}
+#ccc h3{margin:10px 0;}
+#ccc h5{
+    width: 32%;
+    margin:0 auto 30px;
+    text-align: center;
+    opacity: .9;
+}
+#ccc div.carousel-caption a{
+    border-radius:5px;
+}
+@media screen and (max-width:768px){
+    #ccc h1{font-size: 3em;}
+    #ccc h3{font-size: 1.5em}
+    #ccc h5{width: 90%;}
+}
+/*************************4主体 section ************************/
+/********************4.1四张小图************************/
+#picture{margin:23px 0;}
+#picture img{width:100%;position: relative;}
+#picture a>div{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:5%;
+    text-align: center;
+}
+#picture>div h2{
+   margin-top: 40%;
+    color:#fff;
+    text-shadow: 0 0 6px rgba(0,0,0,.7);
+    display: inline-block;
+    transition: all .5s ease;
+}
+#picture>div h3{
+    color:#fff;
+    text-shadow: 0 0 6px rgba(0,0,0,.7);
+    opacity: 0;
+    margin-top:0;
+    transition: all .5s ease 0.05s;
+}
+#picture>div :hover h2{opacity: 0;}
+#picture>div:hover a>div{background: rgba(50,50,50,.5);}
+#picture>div:hover h3{
+    opacity: 1;
+    transform: scale(1,1) translateY(-90%);
+}
+/************4.2 八张大图*****************/
+#picture-1{
+    width: 100%;
+    margin: auto;
+    display:flex;
+    display:-webkit-flex;
+    flex-wrap: wrap;
+}
+#picture-1 .panel img{width: 100%;}
+#picture-1 .panel{
+    width: 48%;
+    text-align: center;
+    margin:20px 10px;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width:768px){
+    #picture-1 .panel{
+        width: 100%!important;
+    }
+}
+/*渐变效果*/
+ div.jianbian{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 512px;
+    top: -1px;
+    left: -227px;
+    overflow: hidden;
+    background-image: linear-gradient(to right,rgba(255,255,255,0.2) 0,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0.2) 100%);
+    transform: skewX(-25deg);
+    opacity: 0;
+}
+div.panel:hover div.jianbian{
+    left:700px;
+    opacity: 1;
+    transition: all 2s linear;
+}
+/*文本*/
+#picture-1  h2{
+    font-family: sharpsans1,sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 36px;
+}
+#picture-1 div.panel p{
+    width: 100%;
+    font-size: 1.5rem;
+    padding:20px 0 20px;
+    /*clear: both;*/
+    line-height: normal;
+    text-align: center;
+}
+
+/**************4.3 RECENT NEWS 缩略图********/
+#recent{text-align: left;}
+#recent div.thumbnail img{transition: all .5s linear;width: 100%;opacity: .6;}
+@media (max-width: 768px){div.thumbnail img{opacity: 1!important;}}
+#recent div.thumbnail:hover img{transform:scale(1.1);opacity: 1;}
+#recent div.thumbnail>div:first-child{overflow: hidden;height: 100%;width: 100%;}
+/**************4.4   66**************/
+#political{
+    width: 100%;
+    height: 300px;
+    background: url(../image/beer-tent-background-light.jpg) repeat 0 -280px;
+}
+#political>div>div{
+    width: 65%;
+    margin:5% 20%;
+    text-align: left;
+}
+#political div.lunbo{
+    width: 100%;
+    height: 58px;
+    position: relative;
+    overflow: hidden;
+}
+/*66图片*/
+#political img{margin-bottom: 12px;}
+/*上下轮播文字*/
+#political ul{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 90%;
+    height: auto;
+}
+#political li{
+    font-family: sharpsans1,sans-serif;
+    font-size:25px;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+}
+#political p{
+    color:#fff;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+    #political li{
+        font-weight: normal!important;
+        font-size:13px;
+        width: 100%;
+    }
+}
+/*************************5页面底部-15张小图 ************************/
+#footer h2{margin: 50px 0 30px;}
+#footer ul{width: 100%;}
+#footer ul>li{
+    display: inline-block;
+    float: left;
+    width: 220px;
+    height: 220px;
+    background-repeat:no-repeat;
+    background-position:center center ;
+    background-size:cover;
+    overflow: hidden;
+    margin: 0 4px 10px 4px;
+}
+
+@media screen and (max-width: 768px){
+    #footer ul>li{
+        width: 146px;
+        height: 146px;
+    }
+    #footer ul{
+        width: 81%!important;
+        margin: auto;
+    }
+}
+
+#footer ul>li div.half-mask{
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    padding: 1% 0;
+    text-align: center;
+    margin-top:185px;
+    transition: all .5s linear;
+}
+#footer ul>li:hover div.half-mask{
+   margin-top: 0;
+    padding-top: 95px;
+}
+#footer div.half-mask>h5{
+    color: #fff;
+}
+#footer div.half-mask:hover h5{transform: scale(1.2);}
+
+#aid{background-image: url(../image/CA-648x400.jpg);}
+#times{
+    background-image: url(../image/Church-times.jpg);
+}
+#uk{background-image: url(../image/Cit-uk-bridges-banner.jpg);}
+#scm{
+    background-image: url(../image/SCM-partner-pages.jpg);
+}
+#uspg{background-image: url(../image/USPG.jpg);}
+
+#ymca{background-image: url(../image/YMCA.jpg);}
+#university{
+    background-image: url(../image/Winchester-Uni-partner-pages.jpg);
+}
+#livability{background-image: url(../image/Livabilty-image-for-partner-page-2.jpg);}
+#embrace{
+    background-image: url(../image/Embrace-partner-pages.jpg);
+}
+#urc{background-image: url(../image/URC-partners-page.jpg);}
+
+#greenbelt{background-image: url(../image/The-Exchange-@.jpg);}
+#amal{
+    background-image: url(../image/Amal-header.png);
+}
+#award{background-image: url(../image/learning-circus-skills_booking-accessible-interactive-content.jpg);}
+#greener{
+    background-image: url(../image/greener4.jpg);
+}
+#list{background-image: url(../image/rainbow.jpg);}
